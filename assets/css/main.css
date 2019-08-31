@@ -1,0 +1,455 @@
+/* First CSS  */
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+/* Second CSS  id="app-inline-css"*/
+.site-logo a {
+  max-width: 200px;
+  display: block;
+}
+#primary-menu li a,
+#primary-menu li .sub-menu li a {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+body {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #505050;
+}
+h1 {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+h2 {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+h3 {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+h4 {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+h5 {
+  font-family: 'Raleway';
+  font-weight: 600;
+}
+h6 {
+  font-family: 'Raleway';
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 34px;
+}
+h3 {
+  font-size: 22px;
+  line-height: 28px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 26px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 24px;
+}
+h6 {
+  font-size: 16px;
+  line-height: 22px;
+}
+q,
+a:hover,
+a:focus,
+a:active,
+code,
+.page-content .widgettitle,
+.widget_recent_entries a:hover,
+.widget_recent_comments a:hover,
+.widget_archive a:hover,
+.widget_categories a:hover,
+.widget_meta a:hover,
+.widget_product_categories a:hover,
+article.post .read-more-btn:hover,
+.widget_rss a:hover,
+.widget_pages a:hover,
+.widget_nav_menu a:hover,
+.attome_page_header .banner-title .attome_breadcrumbs a,
+.attome_post_author_box .user-social-link li a:hover,
+.practice .content h3 a,
+.cp,
+.chp:hover,
+.post-style-three .blog-post-content .entry-title a:hover,
+.post-style-three .blog-post-content .post-meta li a:hover,
+article.post.sticky .entry-title a,
+article.post .entry-title a:hover,
+.rev_slider_wrapper li span,
+.rev_slider_wrapper li .rev-btn,
+.larfirm_blog_posts .blog-style-one .blog-post-content .entry-title a:hover,
+.listitems li i,
+article.post .entry-meta span i,
+.attome-tab li a:hover,
+.attome-tab li a.active,
+.icon-box.style-one .content .read-link,
+.section-title h2 em,
+.counter-box .content span,
+.counter-box .icon-wrap i,
+.icon-box.style-four,
+.testimonial-four .testi-content i,
+.video-btn:hover,
+.video-btn:focus,
+.video-btn:active,
+.video-btn:focus:active,
+.attome_team_members-two .team-member .member-bio .team-profail li a:hover,
+.site-footer .recent_posts_widget .resent-post .content .meta .author .url,
+.site-footer .recent_posts_widget .resent-post .content h4 a:hover,
+.tags-links a:hover,
+.post-single article.post .post-content ul li:before,
+.icon-box.style-three .item-content .content .title a:hover,
+.copyright-bar .site-info p a,
+.site-footer .widget_nav_menu .menu > li > a:hover,
+article.post .entry-meta a:hover,
+.search-form .search-submit:hover,
+.add-menu li a:hover,
+.tab-content ul li:before,
+.post-style-two .blog-post-content .entry-title a:hover,
+.wpb-js-composer
+  .vc_tta-color-grey.vc_tta-style-classic
+  .vc_tta-tab.vc_active
+  > a,
+.case-result-box:hover h3,
+.choose-item h3 span,
+.team-box-layout1
+  .item-content-wrapper
+  .item-content
+  ul.social-default
+  li
+  a:hover,
+.page-popup-search .form-description,
+#comments .comment-list li .comment-body .reply a,
+.section-title .title em,
+.section-title .delimiter,
+.practice .item-img-wrapper a:hover,
+.site-footer .recent_posts_widget .resent-post .content .meta .date,
+input[type='submit']:hover,
+.icon-box.style-four .item-content .abc-btn-default,
+.team-box-layout1 .item-content-wrapper .item-content h3 a:hover,
+.abc-btn-default:hover,
+.abc-btn-default:focus,
+.video-btn:hover,
+.video-btn:focus,
+.video-btn:active,
+.video-btn:focus:active,
+.post-date a:hover,
+.post-date a i,
+.post-footer a:hover,
+.team-box-layout1 .item-content-wrapper .item-content ul.social-default li a,
+.abc-btn-default.btn-light,
+.contact-form-wrappper .wpcf7-form-control.abc-btn-default:hover,
+.wpb-js-composer
+  .vc_tta-tabs:not([class*='vc_tta-gap']):not(.vc_tta-o-no-fill).vc_tta-tabs-position-top
+  .vc_tta-tab
+  > a
+  span {
+  color: #cc8809;
+}
+
+.copyright-bar .site-info p a:hover,
+#comments .comment-list li .comment-body .reply a:hover,
+article.post.sticky .entry-title a:hover,
+.team-box-layout1
+  .item-content-wrapper
+  .item-content
+  ul.social-default
+  li
+  a:hover {
+  color: rgba(204, 136, 9, 0.8);
+}
+.overlay-content-box:before {
+  background: rgba(204, 136, 9, 0.9);
+}
+
+.case-result-box .item-img:before {
+  background: #cc8809;
+}
+
+.icon-box.style-two:hover:before {
+  background: rgba(204, 136, 9, 0.9);
+}
+
+.wpb-js-composer
+  .vc_tta-color-grey.vc_tta-style-classic
+  .vc_tta-tab.vc_active
+  > a {
+  background-color: #cc8809 !important;
+}
+
+.form-submit .submit,
+.iconlink-box li:hover,
+.practice-single .prictice-thumbnail .entry-title,
+.footer-two-inner .attome-social-link li a:hover,
+.attome_address_widget .address li .icon,
+.pinacop-modal-video .video-btn:before,
+.post-navigation .nav-links .nav-previous:hover,
+.post-navigation .nav-links .nav-next:hover,
+#attome-pagination .page-numbers li .current,
+#attome-pagination .page-numbers li:hover,
+.section-title .delimiter:before,
+.section-title .delimiter:after,
+.vertical-tabs-wrapper .vertical-tabs li a.active,
+.vertical-tabs-wrapper .vertical-tabs li a:hover,
+.icon-box.style-two .icon-container,
+.swiper-pagination span.swiper-pagination-bullet-active,
+.abc-btn-default,
+.case-result-box:hover h3,
+.return-to-top:hover:after,
+.icon-box.style-one,
+.card .card-header.active,
+.current .history-time a,
+.contact-form-wrappper .wpcf7-form-control.abc-btn-default,
+.attome-portfolio-filter li:hover,
+.attome-portfolio-filter li.active,
+.color-bg-primary,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.icon-box.style-four,
+.attome_carousel .slider-slider-nav .slider-prev:hover,
+.attome_carousel .slider-slider-nav .slider-next:hover,
+.attome_carousel_content .slider-slider-nav .slider-prev:hover,
+.attome_carousel_content .slider-slider-nav .slider-next:hover,
+.pinacop-modal-video .video-btn,
+.attome-portfolio-gallery
+  .portfolio-item
+  .portfolio-wrapper
+  .content-layer
+  .view-item:hover,
+.icon-box.style-five .title:hover {
+  background: #cc8809;
+  color: #fff;
+}
+
+.comment-form-author input:hover,
+.comment-form-email input:hover,
+.comment-form-url input:hover,
+#commentform textarea:hover,
+.comment-form-author input:focus,
+.comment-form-email input:focus,
+.comment-form-url input:focus,
+#commentform textarea:focus,
+.form-submit .submit,
+.vertical-tabs-wrapper .vertical-tabs li a,
+.swiper-pagination span.swiper-pagination-bullet-active:before,
+.attome-portfolio-filter li:hover,
+.attome-portfolio-filter li.active,
+.popup-search-opened .page-popup-search .search-field,
+.abc-btn-default,
+blockquote,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.contact-form-wrappper .wpcf7-form-control.abc-btn-default,
+.wpcf7-form-control-wrap input:focus,
+.wpcf7-form-control-wrap textarea:focus,
+.attome-portfolio-gallery
+  .portfolio-item
+  .portfolio-wrapper
+  .content-layer
+  .view-item:hover {
+  border-color: #cc8809;
+}
+
+.video-btn:hover:after,
+.video-btn:focus:after,
+.video-btn:active:after,
+.video-btn:focus:active:after {
+  border-color: transparent transparent transparent #cc8809;
+}
+
+.color-bg-secondary {
+  background-color: #ae7203 !important;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+}
+
+.error-404.not-found a {
+  border-color: #333333;
+}
+
+mark,
+.signup-newsletter-form input.submit-btn,
+.error-404.not-found a:hover,
+.more-link:hover,
+.widget h4.widget-title:after,
+.section-title:before,
+.section-title:after {
+  background-color: #333333;
+}
+
+.header-text-wrap .header-text li,
+.attome-topbar .attome-social-link li a {
+  color: #fff;
+}
+
+.attome-topbar,
+.header-middle .middle-inner .contact-number .icon,
+.top-search-btn {
+  background: #cc8809;
+}
+
+.attome-topbar .attome-social-link li a:hover,
+.header-middle .middle-inner .search-form i,
+.header-text-wrap .header-text li.open-hour span {
+  color: #cc8809;
+}
+
+#primary-menu li a {
+  color: #333;
+}
+
+#primary-menu li a:hover,
+#primary-menu li.current_page_ancestor > a,
+#primary-menu li.current_page_ancestor li.current_page_item a {
+  color: #cc8809 !important;
+}
+
+#menu-header-menu a:hover {
+  background: #cc8809 !important;
+}
+
+#primary-menu li .sub-menu li a {
+  color: #878787;
+}
+
+#primary-menu li .sub-menu li a:hover {
+  color: #333 !important;
+}
+
+#primary-menu li .sub-menu {
+  background: #fff;
+}
+
+.site-footer {
+  background: #282e3f;
+}
+
+.copyright-bar {
+  background: #1f2535;
+}
+
+.site-footer,
+.attome_address_widget .address li p {
+  color: #d1d2d4;
+}
+
+.site-footer .widget_nav_menu .menu > li > a {
+  color: #d1d2d4;
+}
+
+.site-footer .widget_nav_menu .menu > li > a:hover {
+  color: #cc8809 !important ;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #ae7203;
+  z-index: 999999;
+}
+
+#loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 3rd id='js_composer_front-inline-css' */
+.vc_custom_1558457252696 {
+  padding-top: 93px !important;
+  padding-bottom: 120px !important;
+}
+.vc_custom_1566670821035 {
+  padding-top: 112px !important;
+  padding-bottom: 120px !important;
+}
+.vc_custom_1566670813485 {
+  padding-top: 112px !important;
+  padding-bottom: 120px !important;
+}
+.vc_custom_1558457349257 {
+  padding-top: 112px !important;
+  padding-bottom: 120px !important;
+}
+.vc_custom_1558457404072 {
+  padding-top: 112px !important;
+  padding-bottom: 53px !important;
+  background-color: #282e3f !important;
+}
+.vc_custom_1561488552806 {
+  padding-top: 112px !important;
+  padding-bottom: 85px !important;
+  background-color: #eeeeee !important;
+}
+.vc_custom_1558457472016 {
+  padding-top: 112px !important;
+  padding-bottom: 90px !important;
+}
+.vc_custom_1558455379472 {
+  padding-top: 113px !important;
+  padding-bottom: 104px !important;
+}
+.vc_custom_1554719087157 {
+  padding-top: 112px !important;
+  padding-bottom: 90px !important;
+}
+.vc_custom_1558285213557 {
+  padding-top: 112px !important;
+  padding-bottom: 120px !important;
+}
+.vc_custom_1558435467614 {
+  margin-top: -55px !important;
+}
+.vc_custom_1558284358920 {
+  padding-top: 40px !important;
+  padding-bottom: 20px !important;
+}
