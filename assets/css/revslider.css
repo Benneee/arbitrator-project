@@ -1,0 +1,29 @@
+#rev_slider_1_1_wrapper .custom.tparrows {
+	cursor:pointer;
+	background:#000;
+	background:rgba(0,0,0,0.5);
+	width:40px;
+	height:40px;
+	position:absolute;
+	display:block;
+	z-index:1000;
+}
+#rev_slider_1_1_wrapper .custom.tparrows:hover {
+	background:#000;
+}
+#rev_slider_1_1_wrapper .custom.tparrows:before {
+	font-family: 'revicons';
+	font-size:15px;
+	color:#fff;
+	display:block;
+	line-height: 40px;
+	text-align: center;
+}
+#rev_slider_1_1_wrapper .custom.tparrows.tp-leftarrow:before {
+	content: '\e824';
+}
+#rev_slider_1_1_wrapper .custom.tparrows.tp-rightarrow:before {
+	content: '\e825';
+}
+
+
