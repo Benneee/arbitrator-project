@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>List Lawyers</title>
-
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="list-lawyers.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><h1>Find a lawyer for your case</h1></li>
+          <li><h3>Find a lawyer for your case</h3></li>
         </ul>
       </nav>
     </header>
@@ -22,7 +26,7 @@
       </section>
 
       <section class="filters">
-        <h3>Apply filters to your search...</h3>
+        <h5 class="mt-3">Apply filters to your search...</h5>
         <div class="filter-set">
           <div class="spec-filter">
             <div>
@@ -83,66 +87,73 @@
           </div>
         </div>
 
-        <input type="submit" value="Search" />
+        <!-- <input type="submit" value="Search" /> -->
+        <button type="submit">Search &nbsp; <i class="fa fa-search"></i></button>
       </section>
 
       <!-- The cards showing the search results -->
-      <section class="search-results">
-          <section class="section-60 section-lg-100">
-              <div class="container">
-                <div class="row row-40 align-items-sm-end">
-                  <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail-variant-2-wrap">
-                      <div class="thumbnail thumbnail-variant-2">
-                        <figure class="thumbnail-image"><img src="images/team-9-246x300.jpg" alt="" width="246" height="300"/>
-                        </figure>
-                        <div class="thumbnail-inner">
-                          <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
-                          <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                        </div>
-                        <div class="thumbnail-caption">
-                          <p class="text-header"><a href="#">Amanda Smith</a></p>
-                          <div class="divider divider-md bg-teak"></div>
-                          <p class="text-caption">Paralegal</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail-variant-2-wrap">
-                      <div class="thumbnail thumbnail-variant-2">
-                        <figure class="thumbnail-image"><img src="images/team-10-246x300.jpg" alt="" width="246" height="300"/>
-                        </figure>
-                        <div class="thumbnail-inner">
-                          <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
-                          <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                        </div>
-                        <div class="thumbnail-caption">
-                          <p class="text-header"><a href="#">John Doe</a></p>
-                          <div class="divider divider-md bg-teak"></div>
-                          <p class="text-caption">Attorney</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail-variant-2-wrap">
-                      <div class="thumbnail thumbnail-variant-2">
-                        <figure class="thumbnail-image"><img src="images/team-11-246x300.jpg" alt="" width="246" height="300"/>
-                        </figure>
-                        <div class="thumbnail-inner">
-                          <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
-                          <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                        </div>
-                        <div class="thumbnail-caption">
-                          <p class="text-header"><a href="#">Vanessa Ives</a></p>
-                          <div class="divider divider-md bg-teak"></div>
-                          <p class="text-caption">Legal Assistant</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-      </section>
+
+
+     
     </main>
+
+    <section class="section-60 section-lg-100 ">
+        <div class="container mx-auto">
+          <div class="row row-40 align-items-sm-end" style="display: flex; justify-content: center; align-items: center;">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail-variant-2-wrap">
+                <div class="thumbnail thumbnail-variant-2">
+                  <figure class="thumbnail-image"><img src="images/team-9-246x300.jpg" alt="" width="246" height="300"/>
+                  </figure>
+                  <div class="thumbnail-inner">
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
+                  </div>
+                  <div class="thumbnail-caption">
+                    <p class="text-header"><a href="#">Amanda Smith</a></p>
+                    <div class="divider divider-md bg-teak"></div>
+                    <p class="text-caption">Paralegal</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail-variant-2-wrap">
+                <div class="thumbnail thumbnail-variant-2">
+                  <figure class="thumbnail-image"><img src="images/team-10-246x300.jpg" alt="" width="246" height="300"/>
+                  </figure>
+                  <div class="thumbnail-inner">
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
+                  </div>
+                  <div class="thumbnail-caption">
+                    <p class="text-header"><a href="#">John Doe</a></p>
+                    <div class="divider divider-md bg-teak"></div>
+                    <p class="text-caption">Attorney</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail-variant-2-wrap">
+                <div class="thumbnail thumbnail-variant-2">
+                  <figure class="thumbnail-image"><img src="images/team-11-246x300.jpg" alt="" width="246" height="300"/>
+                  </figure>
+                  <div class="thumbnail-inner">
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
+                  </div>
+                  <div class="thumbnail-caption">
+                    <p class="text-header"><a href="#">Vanessa Ives</a></p>
+                    <div class="divider divider-md bg-teak"></div>
+                    <p class="text-caption">Legal Assistant</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </section>
   </body>
 </html>

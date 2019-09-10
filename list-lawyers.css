@@ -218,3 +218,20 @@ label:hover:before {
   font-size: 0.9em;
   cursor: pointer;
 }
+/* 
+.fa-search {
+  transition: all 0.5s;
+} */
+
+.fa-search:hover {
+  animation: rotatecss 1.5s infinite linear;
+}
+
+@keyframes rotatecss {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
