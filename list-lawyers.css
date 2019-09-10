@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-size: small; */
 }
 
 body {
@@ -71,11 +72,12 @@ input::placeholder {
 }
 
 .filter-set {
-  /* display: flex;
-  justify-content: space-around; */
-  /* border: 1px solid red; */
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* border: 1px solid red;
+  /* display: grid;
+  grid-template-columns: 2fr 1fr; */
   width: 60vw;
 }
 
@@ -159,7 +161,6 @@ label:hover:before {
 }
 
 /* 
- This is me paying respect:
  Checkbox styling: Geoffrey Crofte: Codepen 
 */
 
@@ -174,7 +175,7 @@ label:hover:before {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  margin: 0;
+  margin: 1.7em 0;
   border: 1px solid #aaa;
   box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
   border-radius: 0.5em;
@@ -206,3 +207,14 @@ label:hover:before {
 }
 
 /* Chris Coyier: Styling Checkbox like it's 2019 */
+
+[type='submit'] {
+  padding: 0.7em;
+  border-radius: 7.5px;
+  box-shadow: none;
+  border: 1px solid #997e59;
+  margin-top: 1.18em;
+  width: 100%;
+  font-size: 0.9em;
+  cursor: pointer;
+}
